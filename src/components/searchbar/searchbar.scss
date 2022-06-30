@@ -1,0 +1,51 @@
+.top-bar {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.top-bar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.top-bar .search-container {
+  float: right;
+}
+
+.top-bar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.top-bar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.top-bar .search-container button:hover {
+  background: #ccc;
+}
+
+.top-bar input[type=text] {
+    border: 1px solid #ccc;
+  }
+
